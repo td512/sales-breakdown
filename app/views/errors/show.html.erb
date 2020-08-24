@@ -377,7 +377,7 @@
                         (Object.keys(txdata.transactionsByYear).pop() - 1), taxDataBefore, taxDataAfter, true)
 
                     drawChart('#itemChart', Object.keys(txdata.transactionsByYear).pop(),
-                        (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, true)
+                        (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, false)
 
                     $('#activityIndicator').addClass('d-none')
 
@@ -388,7 +388,7 @@
         })
     }
 
-    function drawChart(canvasElement, chartLabelBefore, chartLabelAfter, chartDataBefore, chartDataAfter, currency){
+    function drawChart(canvasElement, chartLabelAfter, chartLabelBefore, chartDataBefore, chartDataAfter, currency){
         let barChartOptions = {}
         if ( currency == true ) {
             barChartOptions = {
@@ -420,7 +420,7 @@
 
 
         var chartData = {
-            labels  : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November'],
+            labels  : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             datasets: [
                 {
                     label               : chartLabelAfter,
@@ -461,3 +461,4 @@
     }
 
 </script>
+
