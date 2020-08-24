@@ -1,0 +1,2012 @@
+
+stat_1:
+  id: 1
+  transaction_date: 2004-04-15
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:35:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 19.73
+  transaction_tax: 1.97
+  transaction_quantity: 6
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.882719000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.882719000 Z
+    zone: *2
+    time: *4
+
+stat_2:
+  id: 2
+  transaction_date: 2004-04-16
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:09:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 18.27
+  transaction_tax: 1.83
+  transaction_quantity: 6
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.886613000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.886613000 Z
+    zone: *2
+    time: *4
+
+stat_3:
+  id: 3
+  transaction_date: 2004-04-17
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:04:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 21.31
+  transaction_tax: 2.14
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.893072000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.893072000 Z
+    zone: *2
+    time: *4
+
+stat_4:
+  id: 4
+  transaction_date: 2004-04-18
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:21:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.09
+  transaction_tax: 0.91
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.896252000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.896252000 Z
+    zone: *2
+    time: *4
+
+stat_5:
+  id: 5
+  transaction_date: 2004-04-18
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 14:09:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 0.0
+  transaction_tax: 0.0
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.899502000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.899502000 Z
+    zone: *2
+    time: *4
+
+stat_6:
+  id: 6
+  transaction_date: 2004-04-19
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:39:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.09
+  transaction_tax: 0.91
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.902652000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.902652000 Z
+    zone: *2
+    time: *4
+
+stat_7:
+  id: 7
+  transaction_date: 2004-04-20
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:04:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 0.86
+  transaction_tax: 0.09
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.905676000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.905676000 Z
+    zone: *2
+    time: *4
+
+stat_8:
+  id: 8
+  transaction_date: 2004-04-21
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:15:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 10.23
+  transaction_tax: 1.02
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.912274000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.912274000 Z
+    zone: *2
+    time: *4
+
+stat_9:
+  id: 9
+  transaction_date: 2004-04-23
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 6.82
+  transaction_tax: 0.68
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.915573000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.915573000 Z
+    zone: *2
+    time: *4
+
+stat_10:
+  id: 10
+  transaction_date: 2004-04-24
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:21:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 10.23
+  transaction_tax: 1.02
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.918796000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.918796000 Z
+    zone: *2
+    time: *4
+
+stat_11:
+  id: 11
+  transaction_date: 2004-04-26
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:49:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.921946000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.921946000 Z
+    zone: *2
+    time: *4
+
+stat_12:
+  id: 12
+  transaction_date: 2004-04-28
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 15:29:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.924965000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.924965000 Z
+    zone: *2
+    time: *4
+
+stat_13:
+  id: 13
+  transaction_date: 2004-04-30
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 15:21:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 6.82
+  transaction_tax: 0.68
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.928236000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.928236000 Z
+    zone: *2
+    time: *4
+
+stat_14:
+  id: 14
+  transaction_date: 2004-05-01
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:56:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 6.82
+  transaction_tax: 0.68
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.931211000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.931211000 Z
+    zone: *2
+    time: *4
+
+stat_15:
+  id: 15
+  transaction_date: 2004-05-04
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 15:13:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.934246000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.934246000 Z
+    zone: *2
+    time: *4
+
+stat_16:
+  id: 16
+  transaction_date: 2004-05-04
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:23:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 0.0
+  transaction_tax: 0.0
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.937251000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.937251000 Z
+    zone: *2
+    time: *4
+
+stat_17:
+  id: 17
+  transaction_date: 2004-05-05
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:03:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.05
+  transaction_tax: 0.9
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.940386000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.940386000 Z
+    zone: *2
+    time: *4
+
+stat_18:
+  id: 18
+  transaction_date: 2004-05-05
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:31:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.943970000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.943970000 Z
+    zone: *2
+    time: *4
+
+stat_19:
+  id: 19
+  transaction_date: 2004-05-06
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:03:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.947166000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.947166000 Z
+    zone: *2
+    time: *4
+
+stat_20:
+  id: 20
+  transaction_date: 2004-05-07
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:11:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 39.04
+  transaction_tax: 3.91
+  transaction_quantity: 12
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.950303000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.950303000 Z
+    zone: *2
+    time: *4
+
+stat_21:
+  id: 21
+  transaction_date: 2004-05-08
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:38:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 15.91
+  transaction_tax: 1.59
+  transaction_quantity: 5
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.953207000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.953207000 Z
+    zone: *2
+    time: *4
+
+stat_22:
+  id: 22
+  transaction_date: 2004-05-09
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:28:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 17.46
+  transaction_tax: 1.74
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.955862000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.955862000 Z
+    zone: *2
+    time: *4
+
+stat_23:
+  id: 23
+  transaction_date: 2004-05-11
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:51:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 0.86
+  transaction_tax: 0.09
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.958949000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.958949000 Z
+    zone: *2
+    time: *4
+
+stat_24:
+  id: 24
+  transaction_date: 2004-05-13
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:53:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 21.22
+  transaction_tax: 2.13
+  transaction_quantity: 10
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.962072000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.962072000 Z
+    zone: *2
+    time: *4
+
+stat_25:
+  id: 25
+  transaction_date: 2004-05-14
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:53:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 8.77
+  transaction_tax: 0.88
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.965147000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.965147000 Z
+    zone: *2
+    time: *4
+
+stat_26:
+  id: 26
+  transaction_date: 2004-05-15
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:57:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 2.68
+  transaction_tax: 0.27
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.968084000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.968084000 Z
+    zone: *2
+    time: *4
+
+stat_27:
+  id: 27
+  transaction_date: 2004-05-16
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:39:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 7.84
+  transaction_tax: 0.81
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.971031000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.971031000 Z
+    zone: *2
+    time: *4
+
+stat_28:
+  id: 28
+  transaction_date: 2004-05-18
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:17:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 12.68
+  transaction_tax: 1.27
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.981425000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.981425000 Z
+    zone: *2
+    time: *4
+
+stat_29:
+  id: 29
+  transaction_date: 2004-05-19
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:45:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 4.36
+  transaction_tax: 0.44
+  transaction_quantity: 2
+  transaction_discount: 0.7
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.984740000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.984740000 Z
+    zone: *2
+    time: *4
+
+stat_30:
+  id: 30
+  transaction_date: 2004-05-20
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 15:53:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 12.41
+  transaction_tax: 1.24
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.987880000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.987880000 Z
+    zone: *2
+    time: *4
+
+stat_31:
+  id: 31
+  transaction_date: 2004-05-21
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:49:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 5.23
+  transaction_tax: 0.52
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.991552000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.991552000 Z
+    zone: *2
+    time: *4
+
+stat_32:
+  id: 32
+  transaction_date: 2004-05-22
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:14:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 30.45
+  transaction_tax: 3.05
+  transaction_quantity: 6
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.994712000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.994712000 Z
+    zone: *2
+    time: *4
+
+stat_33:
+  id: 33
+  transaction_date: 2004-05-23
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:31:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 19.14
+  transaction_tax: 1.91
+  transaction_quantity: 5
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:13.997321000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:13.997321000 Z
+    zone: *2
+    time: *4
+
+stat_34:
+  id: 34
+  transaction_date: 2004-05-24
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:14:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 22.01
+  transaction_tax: 2.19
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.000623000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.000623000 Z
+    zone: *2
+    time: *4
+
+stat_35:
+  id: 35
+  transaction_date: 2004-05-25
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:56:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 27.91
+  transaction_tax: 2.79
+  transaction_quantity: 6
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.003719000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.003719000 Z
+    zone: *2
+    time: *4
+
+stat_36:
+  id: 36
+  transaction_date: 2004-05-26
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:44:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.41
+  transaction_tax: 0.34
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.070548000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.070548000 Z
+    zone: *2
+    time: *4
+
+stat_37:
+  id: 37
+  transaction_date: 2004-05-27
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:30:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.27
+  transaction_tax: 0.93
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.074159000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.074159000 Z
+    zone: *2
+    time: *4
+
+stat_38:
+  id: 38
+  transaction_date: 2004-05-28
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:39:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 11.5
+  transaction_tax: 1.15
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.080936000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.080936000 Z
+    zone: *2
+    time: *4
+
+stat_39:
+  id: 39
+  transaction_date: 2004-05-29
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:02:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 71.4
+  transaction_tax: 7.15
+  transaction_quantity: 20
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.084795000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.084795000 Z
+    zone: *2
+    time: *4
+
+stat_40:
+  id: 40
+  transaction_date: 2004-05-30
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:02:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 8.37
+  transaction_tax: 0.83
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.088066000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.088066000 Z
+    zone: *2
+    time: *4
+
+stat_41:
+  id: 41
+  transaction_date: 2004-05-31
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 1.82
+  transaction_tax: 0.18
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.091428000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.091428000 Z
+    zone: *2
+    time: *4
+
+stat_42:
+  id: 42
+  transaction_date: 2004-06-01
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:03:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 25.14
+  transaction_tax: 2.51
+  transaction_quantity: 6
+  transaction_discount: 0.2
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.098621000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.098621000 Z
+    zone: *2
+    time: *4
+
+stat_43:
+  id: 43
+  transaction_date: 2004-06-02
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:53:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 10.59
+  transaction_tax: 1.06
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.102333000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.102333000 Z
+    zone: *2
+    time: *4
+
+stat_44:
+  id: 44
+  transaction_date: 2004-06-03
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:34:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.86
+  transaction_tax: 0.99
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.105446000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.105446000 Z
+    zone: *2
+    time: *4
+
+stat_45:
+  id: 45
+  transaction_date: 2004-06-04
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:08:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 11.29
+  transaction_tax: 1.13
+  transaction_quantity: 3
+  transaction_discount: 1.23
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.108756000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.108756000 Z
+    zone: *2
+    time: *4
+
+stat_46:
+  id: 46
+  transaction_date: 2004-06-05
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 13.32
+  transaction_tax: 1.33
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.112035000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.112035000 Z
+    zone: *2
+    time: *4
+
+stat_47:
+  id: 47
+  transaction_date: 2004-06-06
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:10:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 10.98
+  transaction_tax: 1.1
+  transaction_quantity: 3
+  transaction_discount: 0.37
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.115261000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.115261000 Z
+    zone: *2
+    time: *4
+
+stat_48:
+  id: 48
+  transaction_date: 2004-06-07
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:24:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 40.73
+  transaction_tax: 4.07
+  transaction_quantity: 10
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.118849000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.118849000 Z
+    zone: *2
+    time: *4
+
+stat_49:
+  id: 49
+  transaction_date: 2004-06-08
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:54:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 29.68
+  transaction_tax: 2.97
+  transaction_quantity: 5
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.121966000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.121966000 Z
+    zone: *2
+    time: *4
+
+stat_50:
+  id: 50
+  transaction_date: 2004-06-10
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 5.23
+  transaction_tax: 0.52
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.124929000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.124929000 Z
+    zone: *2
+    time: *4
+
+stat_51:
+  id: 51
+  transaction_date: 2004-06-11
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:19:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 8.09
+  transaction_tax: 0.81
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.127838000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.127838000 Z
+    zone: *2
+    time: *4
+
+stat_52:
+  id: 52
+  transaction_date: 2004-06-12
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:59:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 11.59
+  transaction_tax: 1.16
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.130757000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.130757000 Z
+    zone: *2
+    time: *4
+
+stat_53:
+  id: 53
+  transaction_date: 2004-06-13
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:13:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 4.5
+  transaction_tax: 0.45
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.133550000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.133550000 Z
+    zone: *2
+    time: *4
+
+stat_54:
+  id: 54
+  transaction_date: 2004-06-14
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:09:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 45.95
+  transaction_tax: 4.6
+  transaction_quantity: 12
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.136525000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.136525000 Z
+    zone: *2
+    time: *4
+
+stat_55:
+  id: 55
+  transaction_date: 2004-06-15
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:36:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 4.5
+  transaction_tax: 0.45
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.139297000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.139297000 Z
+    zone: *2
+    time: *4
+
+stat_56:
+  id: 56
+  transaction_date: 2004-06-16
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:06:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 16.18
+  transaction_tax: 1.62
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.142239000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.142239000 Z
+    zone: *2
+    time: *4
+
+stat_57:
+  id: 57
+  transaction_date: 2004-06-18
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:27:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 28.59
+  transaction_tax: 2.86
+  transaction_quantity: 8
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.145673000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.145673000 Z
+    zone: *2
+    time: *4
+
+stat_58:
+  id: 58
+  transaction_date: 2004-06-19
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:23:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 16.23
+  transaction_tax: 1.62
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.148920000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.148920000 Z
+    zone: *2
+    time: *4
+
+stat_59:
+  id: 59
+  transaction_date: 2004-06-20
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:23:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 8.59
+  transaction_tax: 0.86
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.151755000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.151755000 Z
+    zone: *2
+    time: *4
+
+stat_60:
+  id: 60
+  transaction_date: 2004-06-21
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 26.59
+  transaction_tax: 2.66
+  transaction_quantity: 8
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.154632000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.154632000 Z
+    zone: *2
+    time: *4
+
+stat_61:
+  id: 61
+  transaction_date: 2004-06-22
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:30:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 28.05
+  transaction_tax: 2.8
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.157634000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.157634000 Z
+    zone: *2
+    time: *4
+
+stat_62:
+  id: 62
+  transaction_date: 2004-06-23
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:56:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 7.0
+  transaction_tax: 0.7
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.160589000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.160589000 Z
+    zone: *2
+    time: *4
+
+stat_63:
+  id: 63
+  transaction_date: 2004-06-25
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:36:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 16.18
+  transaction_tax: 1.62
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.163783000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.163783000 Z
+    zone: *2
+    time: *4
+
+stat_64:
+  id: 64
+  transaction_date: 2004-06-26
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:31:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 23.18
+  transaction_tax: 2.32
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.167048000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.167048000 Z
+    zone: *2
+    time: *4
+
+stat_65:
+  id: 65
+  transaction_date: 2004-06-27
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 16:43:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 3.59
+  transaction_tax: 0.36
+  transaction_quantity: 1
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.169917000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.169917000 Z
+    zone: *2
+    time: *4
+
+stat_66:
+  id: 66
+  transaction_date: 2004-06-28
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 14:56:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 17.49
+  transaction_tax: 1.75
+  transaction_quantity: 5
+  transaction_discount: 2.51
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.172587000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.172587000 Z
+    zone: *2
+    time: *4
+
+stat_67:
+  id: 67
+  transaction_date: 2004-06-29
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 14:34:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 10.41
+  transaction_tax: 1.04
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.180397000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.180397000 Z
+    zone: *2
+    time: *4
+
+stat_68:
+  id: 68
+  transaction_date: 2004-06-30
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:29:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 27.59
+  transaction_tax: 2.76
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.183671000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.183671000 Z
+    zone: *2
+    time: *4
+
+stat_69:
+  id: 69
+  transaction_date: 2004-07-01
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:42:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 20.82
+  transaction_tax: 2.08
+  transaction_quantity: 9
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.186710000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.186710000 Z
+    zone: *2
+    time: *4
+
+stat_70:
+  id: 70
+  transaction_date: 2004-07-02
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:13:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 14.45
+  transaction_tax: 1.45
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.189501000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.189501000 Z
+    zone: *2
+    time: *4
+
+stat_71:
+  id: 71
+  transaction_date: 2004-07-03
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:47:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 27.28
+  transaction_tax: 2.72
+  transaction_quantity: 7
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.192398000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.192398000 Z
+    zone: *2
+    time: *4
+
+stat_72:
+  id: 72
+  transaction_date: 2004-07-04
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 11:48:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 26.84
+  transaction_tax: 2.68
+  transaction_quantity: 5
+  transaction_discount: 3.28
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.195381000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.195381000 Z
+    zone: *2
+    time: *4
+
+stat_73:
+  id: 73
+  transaction_date: 2004-07-05
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 12:10:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 9.45
+  transaction_tax: 0.95
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.198120000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.198120000 Z
+    zone: *2
+    time: *4
+
+stat_74:
+  id: 74
+  transaction_date: 2004-07-06
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 14:11:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 16.27
+  transaction_tax: 1.63
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.201143000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.201143000 Z
+    zone: *2
+    time: *4
+
+stat_75:
+  id: 75
+  transaction_date: 2004-07-07
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:22:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 6.14
+  transaction_tax: 0.61
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.204165000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.204165000 Z
+    zone: *2
+    time: *4
+
+stat_76:
+  id: 76
+  transaction_date: 2004-07-08
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:43:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 11.27
+  transaction_tax: 1.13
+  transaction_quantity: 3
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.206810000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.206810000 Z
+    zone: *2
+    time: *4
+
+stat_77:
+  id: 77
+  transaction_date: 2004-07-09
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:06:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 17.09
+  transaction_tax: 1.71
+  transaction_quantity: 5
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.209773000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.209773000 Z
+    zone: *2
+    time: *4
+
+stat_78:
+  id: 78
+  transaction_date: 2004-07-10
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 09:45:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 7.27
+  transaction_tax: 0.73
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.213326000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.213326000 Z
+    zone: *2
+    time: *4
+
+stat_79:
+  id: 79
+  transaction_date: 2004-07-11
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 13:11:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 5.41
+  transaction_tax: 0.54
+  transaction_quantity: 2
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.216134000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.216134000 Z
+    zone: *2
+    time: *4
+
+stat_80:
+  id: 80
+  transaction_date: 2004-07-13
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:12:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 12.28
+  transaction_tax: 1.22
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category: 
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *4
+
+stat_81:
+  id: 81
+  transaction_date: 2004-07-15
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:59:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 6.77
+  transaction_tax: 0.68
+  transaction_quantity: 2
