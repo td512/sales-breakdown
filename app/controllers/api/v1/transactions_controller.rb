@@ -61,19 +61,5 @@ class Api::V1::TransactionsController < ApplicationController
       render 'api/v1/errors/not_acceptable.json.jbuilder', status: 406
     end
 
-    @sales.clone.each do |k, v|
-      @sales[k] = v.reject {|k, v| v.nil? || v == 0.0}
-    end
-    @tax.clone.each do |k, v|
-      @tax[k] = v.reject {|k, v| v.nil? || v == 0.0}
-    end
-    @profits.clone.each do |k, v|
-      @profits[k] = v.reject {|k, v| v.nil? || v == 0.0}
-    end
-    @tx.clone.each do |k, v|
-      @tx = @tx.except!(k)
-      @tx[k] = v.reject {|k, v| v.nil? || v == 0.0}
-    end
-
   end
 end
