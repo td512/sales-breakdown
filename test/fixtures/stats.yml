@@ -1999,14 +1999,52 @@ stat_80:
     zone: *2
     time: *4
 
-stat_81:
-  id: 81
-  transaction_date: 2004-07-15
+stat_80:
+  id: 80
+  transaction_date: 2004-07-13
   transaction_time: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &1 2000-01-01 10:59:00.000000000 Z
+    utc: &1 2000-01-01 10:12:00.000000000 Z
     zone: &2 !ruby/object:ActiveSupport::TimeZone
       name: Etc/UTC
     time: *1
-  transaction_exclusive: 6.77
-  transaction_tax: 0.68
-  transaction_quantity: 2
+  transaction_exclusive: 12.28
+  transaction_tax: 1.22
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category:
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *4
+
+stat_81:
+  id: 81
+  transaction_date: 2003-07-13
+  transaction_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2000-01-01 10:12:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  transaction_exclusive: 12.28
+  transaction_tax: 1.22
+  transaction_quantity: 4
+  transaction_discount: 0.0
+  rrp: 0.0
+  last_buy_price: 0.0
+  description: Cards
+  category:
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *3
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-08-23 02:02:14.218984000 Z
+    zone: *2
+    time: *4
