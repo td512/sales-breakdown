@@ -289,12 +289,18 @@
     })
 
     function setUpEnvironment(year){
+
         $('#yearMenu').addClass('d-none')
         $('#saleValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#profitValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#taxValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#itemValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#yearDropdown').empty()
+        clearCanvas('saleChart')
+        clearCanvas('profitChart')
+        clearCanvas('taxChart')
+        clearCanvas('itemChart')
+
         $('#activityIndicator').removeClass('d-none')
         $.get('/api/v1/transactions', function(txdata){
             Object.keys(txdata.transactionsByYear).forEach(function(key) {
@@ -313,78 +319,78 @@
 
             $.get('/api/v1/transactions/' + (year === undefined ?  Object.keys(txdata.transactionsByYear).pop() + '-01-01' : year + '-01-01'),
                 function(data){
-                let saleValue  = 0,
-                    profitValue = 0,
-                    taxValue   = 0,
-                    itemValue  = 0,
-                    saleDataBefore   = [],
-                    profitDataBefore  = [],
-                    taxDataBefore    = [],
-                    itemDataBefore   = [],
-                    saleDataAfter   = [],
-                    profitDataAfter  = [],
-                    taxDataAfter    = [],
-                    itemDataAfter   = []
+                    let saleValue  = 0,
+                        profitValue = 0,
+                        taxValue   = 0,
+                        itemValue  = 0,
+                        saleDataBefore   = [],
+                        profitDataBefore  = [],
+                        taxDataBefore    = [],
+                        itemDataBefore   = [],
+                        saleDataAfter   = [],
+                        profitDataAfter  = [],
+                        taxDataAfter    = [],
+                        itemDataAfter   = []
 
-                Object.keys(data.currentSalesTransactionValueByMonth).forEach(function(key) {
-                    saleValue += parseFloat(data.currentSalesTransactionValueByMonth[key])
-                    saleDataAfter.push(parseInt(data.currentSalesTransactionValueByMonth[key]))
+                    Object.keys(data.currentSalesTransactionValueByMonth).forEach(function(key) {
+                        saleValue += parseFloat(data.currentSalesTransactionValueByMonth[key])
+                        saleDataAfter.push(parseInt(data.currentSalesTransactionValueByMonth[key]))
+                    })
+
+                    Object.keys(data.currentProfitTransactionValueByMonth).forEach(function(key) {
+                        profitValue += parseFloat(data.currentProfitTransactionValueByMonth[key])
+                        profitDataAfter.push(data.currentProfitTransactionValueByMonth[key])
+                    })
+
+                    Object.keys(data.currentTaxTransactionValueByMonth).forEach(function(key) {
+                        taxValue += parseFloat(data.currentTaxTransactionValueByMonth[key])
+                        taxDataAfter.push(data.currentTaxTransactionValueByMonth[key])
+                    })
+
+                    Object.keys(data.currentSalesTransactionsByMonth).forEach(function(key) {
+                        itemValue += parseFloat(data.currentSalesTransactionsByMonth[key])
+                        itemDataAfter.push(data.currentSalesTransactionsByMonth[key])
+                    })
+
+                    Object.keys(data.previousSalesTransactionValueByMonth).forEach(function(key) {
+                        saleDataBefore.push(parseInt(data.previousSalesTransactionValueByMonth[key]))
+                    })
+
+                    Object.keys(data.previousProfitTransactionValueByMonth).forEach(function(key) {
+                        profitDataBefore.push(data.previousProfitTransactionValueByMonth[key])
+                    })
+
+                    Object.keys(data.previousTaxTransactionValueByMonth).forEach(function(key) {
+                        taxDataBefore.push(data.previousTaxTransactionValueByMonth[key])
+                    })
+
+                    Object.keys(data.previousSalesTransactionsByMonth).forEach(function(key) {
+                        itemDataBefore.push(data.previousSalesTransactionsByMonth[key])
+                    })
+
+                    $('#saleValue').text(data.currency_symbol + Math.round((saleValue + Number.EPSILON) * 100) / 100)
+                    $('#profitValue').text(data.currency_symbol + Math.round((profitValue + Number.EPSILON) * 100) / 100)
+                    $('#taxValue').text(data.currency_symbol + Math.round((taxValue + Number.EPSILON) * 100) / 100)
+                    $('#itemValue').text(itemValue)
+
+                    drawChart('#saleChart', Object.keys(txdata.transactionsByYear).pop(),
+                        (Object.keys(txdata.transactionsByYear).pop() - 1), saleDataBefore, saleDataAfter, true)
+
+                    drawChart('#profitChart', Object.keys(txdata.transactionsByYear).pop(),
+                        (Object.keys(txdata.transactionsByYear).pop() - 1), profitDataBefore, profitDataAfter, true)
+
+                    drawChart('#taxChart', Object.keys(txdata.transactionsByYear).pop(),
+                        (Object.keys(txdata.transactionsByYear).pop() - 1), taxDataBefore, taxDataAfter, true)
+
+                    drawChart('#itemChart', Object.keys(txdata.transactionsByYear).pop(),
+                        (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, false)
+
+                    $('#activityIndicator').addClass('d-none')
+
+                    $('.yearSwitcher').on('click', function(){
+                        setUpEnvironment($(this).data('year'))
+                    })
                 })
-
-                Object.keys(data.currentProfitTransactionValueByMonth).forEach(function(key) {
-                    profitValue += parseFloat(data.currentProfitTransactionValueByMonth[key])
-                    profitDataAfter.push(data.currentProfitTransactionValueByMonth[key])
-                })
-
-                Object.keys(data.currentTaxTransactionValueByMonth).forEach(function(key) {
-                    taxValue += parseFloat(data.currentTaxTransactionValueByMonth[key])
-                    taxDataAfter.push(data.currentTaxTransactionValueByMonth[key])
-                })
-
-                Object.keys(data.currentSalesTransactionsByMonth).forEach(function(key) {
-                    itemValue += parseFloat(data.currentSalesTransactionsByMonth[key])
-                    itemDataAfter.push(data.currentSalesTransactionsByMonth[key])
-                })
-
-                Object.keys(data.previousSalesTransactionValueByMonth).forEach(function(key) {
-                    saleDataBefore.push(parseInt(data.previousSalesTransactionValueByMonth[key]))
-                })
-
-                Object.keys(data.previousProfitTransactionValueByMonth).forEach(function(key) {
-                    profitDataBefore.push(data.previousProfitTransactionValueByMonth[key])
-                })
-
-                Object.keys(data.previousTaxTransactionValueByMonth).forEach(function(key) {
-                    taxDataBefore.push(data.previousTaxTransactionValueByMonth[key])
-                })
-
-                Object.keys(data.previousSalesTransactionsByMonth).forEach(function(key) {
-                    itemDataBefore.push(data.previousSalesTransactionsByMonth[key])
-                })
-
-                $('#saleValue').text(data.currency_symbol + Math.round((saleValue + Number.EPSILON) * 100) / 100)
-                $('#profitValue').text(data.currency_symbol + Math.round((profitValue + Number.EPSILON) * 100) / 100)
-                $('#taxValue').text(data.currency_symbol + Math.round((taxValue + Number.EPSILON) * 100) / 100)
-                $('#itemValue').text(itemValue)
-
-                drawChart('#saleChart', Object.keys(txdata.transactionsByYear).pop(),
-                    (Object.keys(txdata.transactionsByYear).pop() - 1), saleDataBefore, saleDataAfter, true)
-
-                drawChart('#profitChart', Object.keys(txdata.transactionsByYear).pop(),
-                    (Object.keys(txdata.transactionsByYear).pop() - 1), profitDataBefore, profitDataAfter, true)
-
-                drawChart('#taxChart', Object.keys(txdata.transactionsByYear).pop(),
-                    (Object.keys(txdata.transactionsByYear).pop() - 1), taxDataBefore, taxDataAfter, true)
-
-                drawChart('#itemChart', Object.keys(txdata.transactionsByYear).pop(),
-                    (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, false)
-
-                $('#activityIndicator').addClass('d-none')
-
-                $('.yearSwitcher').on('click', function(){
-                    setUpEnvironment($(this).data('year'))
-                })
-            })
         })
     }
 
@@ -458,6 +464,13 @@
             data: chartData,
             options: barChartOptions
         })
+    }
+
+    function clearCanvas(canvasId){
+        let canvas = document.getElementById(canvasId),
+            canvasWidth = canvas.width, canvasHeight = canvas.height,
+            ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
 </script>

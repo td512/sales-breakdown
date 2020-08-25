@@ -289,12 +289,18 @@
     })
 
     function setUpEnvironment(year){
+
         $('#yearMenu').addClass('d-none')
         $('#saleValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#profitValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#taxValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#itemValue').empty().append('<div id="activityIndicator" class="spinner-border spinner-border-sm text-primary" role="status"><span class="sr-only">Loading...</span></div>')
         $('#yearDropdown').empty()
+        clearCanvas('saleChart')
+        clearCanvas('profitChart')
+        clearCanvas('taxChart')
+        clearCanvas('itemChart')
+
         $('#activityIndicator').removeClass('d-none')
         $.get('/api/v1/transactions', function(txdata){
             Object.keys(txdata.transactionsByYear).forEach(function(key) {
@@ -458,6 +464,13 @@
             data: chartData,
             options: barChartOptions
         })
+    }
+
+    function clearCanvas(canvasId){
+        let canvas = document.getElementById(canvasId),
+            canvasWidth = canvas.width, canvasHeight = canvas.height,
+            ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
 </script>
