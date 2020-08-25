@@ -373,17 +373,31 @@
                     $('#taxValue').text(data.currency_symbol + Math.round((taxValue + Number.EPSILON) * 100) / 100)
                     $('#itemValue').text(itemValue)
 
-                    drawChart('#saleChart', Object.keys(txdata.transactionsByYear).pop(),
-                        (Object.keys(txdata.transactionsByYear).pop() - 1), saleDataBefore, saleDataAfter, true)
+                    if (year){
 
-                    drawChart('#profitChart', Object.keys(txdata.transactionsByYear).pop(),
-                        (Object.keys(txdata.transactionsByYear).pop() - 1), profitDataBefore, profitDataAfter, true)
+                        drawChart('#saleChart', year, (year - 1), saleDataBefore, saleDataAfter, true)
 
-                    drawChart('#taxChart', Object.keys(txdata.transactionsByYear).pop(),
-                        (Object.keys(txdata.transactionsByYear).pop() - 1), taxDataBefore, taxDataAfter, true)
+                        drawChart('#profitChart', year, (year - 1), profitDataBefore, profitDataAfter, true)
 
-                    drawChart('#itemChart', Object.keys(txdata.transactionsByYear).pop(),
-                        (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, false)
+                        drawChart('#taxChart', year, (year - 1), taxDataBefore, taxDataAfter, true)
+
+                        drawChart('#itemChart', year, (year - 1), itemDataBefore, itemDataAfter, false)
+
+                    } else {
+
+                        drawChart('#saleChart', Object.keys(txdata.transactionsByYear).pop(),
+                            (Object.keys(txdata.transactionsByYear).pop() - 1), saleDataBefore, saleDataAfter, true)
+
+                        drawChart('#profitChart', Object.keys(txdata.transactionsByYear).pop(),
+                            (Object.keys(txdata.transactionsByYear).pop() - 1), profitDataBefore, profitDataAfter, true)
+
+                        drawChart('#taxChart', Object.keys(txdata.transactionsByYear).pop(),
+                            (Object.keys(txdata.transactionsByYear).pop() - 1), taxDataBefore, taxDataAfter, true)
+
+                        drawChart('#itemChart', Object.keys(txdata.transactionsByYear).pop(),
+                            (Object.keys(txdata.transactionsByYear).pop() - 1), itemDataBefore, itemDataAfter, false)
+
+                    }
 
                     $('#activityIndicator').addClass('d-none')
 
@@ -470,7 +484,7 @@
         let canvas = document.getElementById(canvasId),
             canvasWidth = canvas.width, canvasHeight = canvas.height,
             ctx = canvas.getContext("2d");
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
 </script>
